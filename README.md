@@ -7,7 +7,7 @@ Objectif : Créer une solution de traitement de données d’images à grande é
 
 Tâches :
 -	Conception de l'architecture Big Data, développer une architecture Big Data intégrée à l'application mobile pour le traitement et la classification des images :
-o	utiliser les services AWS EMR (Elastic MapReduce) pour gérer le calcul distribué et l'exécution des tâches à grande échelle ;
+    - utiliser les services AWS EMR (Elastic MapReduce) pour gérer le calcul distribué et l'exécution des tâches à grande échelle ;
 o	instancier des serveurs EC2 pour le traitement distribué et la gestion de l'infrastructure.
 -	Traitement des données à grande échelle avec PySpark :
 o	développer des scripts en PySpark pour effectuer des calculs distribués sur les données ;
