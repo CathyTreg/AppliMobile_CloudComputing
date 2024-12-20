@@ -6,16 +6,18 @@ Contexte : « Fruits! » est une start-up AgriTech qui développe une applicatio
 Objectif : Créer une solution de traitement de données d’images à grande échelle, capable de fonctionner dans le cloud avec des performances optimales.
 
 Tâches :
--	Conception de l'architecture Big Data, développer une architecture Big Data intégrée à l'application mobile pour le traitement et la classification des images :
-    - utiliser les services AWS EMR (Elastic MapReduce) pour gérer le calcul distribué et l'exécution des tâches à grande échelle ;
-    - instancier des serveurs EC2 pour le traitement distribué et la gestion de l'infrastructure.
+-	Conception de l'architecture Big Data : 
+o	Développer une architecture Big Data intégrée à l'application mobile pour le traitement et la classification des images ;
+o	Utiliser les services AWS EMR (Elastic MapReduce) pour gérer le calcul distribué et l'exécution des tâches à grande échelle ;
+o	Instancier des serveurs EC2 pour le traitement distribué et la gestion de l'infrastructure ;
 -	Traitement des données à grande échelle avec PySpark :
-    - développer des scripts en PySpark pour effectuer des calculs distribués sur les données ;
-    - implémenter des Spark sessions permettant de charger et traiter efficacement les images en parallèle sur plusieurs nœuds, avec une gestion optimale de la mémoire et des ressources.
+o	Développer des scripts en PySpark pour effectuer des calculs distribués sur les données ;
+o	Implémenter des Spark sessions permettant de charger et traiter efficacement les images en parallèle sur plusieurs nœuds, avec une gestion optimale de la mémoire et des ressources.
 
 Résultats : 
--	Le traitement des données via les Spark session (code pySpark) permettra un passage à l’échelle de manière simple et rapide en faisant appel à des exécuteurs.
--	Ce process fonctionne très bien avec l'infrastructure distribuée mise en place (temps de traitement de moins de 10 minutes sur les 100 000 images). 
+-	Le traitement des données via les Spark session (code pySpark) permettra un passage à l’échelle simple et rapide en faisant appel à des exécuteurs ;
+-	Ce processus fonctionne de manière optimale avec l'infrastructure distribuée mise en place, avec un temps de traitement de moins de 10 minutes pour 100 000 images.
 
 Environnement de travail : Service EMR (Service cloud pour exécuter des calculs distribués) d’AWS avec EC2 (location de serveurs virtuels), Jupyter Hub avec PySpark
-Librairies : Numpy – Pandas – Matplotlib – TensorFlow/Keras – PySpark
+Librairies : NumPy – Pandas – Matplotlib – TensorFlow/Keras – PySpark
+
